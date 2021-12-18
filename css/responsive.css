@@ -1,0 +1,569 @@
+@media(max-width: 419px){
+	/*header section starts here*/
+	.header .navbar .nav-item a{
+		margin: 10px 8px 2px 0px;
+	}
+	.header .navbar a img{
+		margin-top: 20px;
+	} 
+	.header .navbar button{
+		margin-top: 12px;
+	} 
+	.header .banner h2{
+		margin: 70px 0px 0px 0px;
+	}
+	.header .banner button{
+		margin: 40px 0px 80px 0px;
+	}
+	.header .banner h2 br{
+		display:none;
+	}
+	/*header section ends here*/
+
+
+
+
+	/*service section starts here*/
+	.service .inner-service p{
+		margin: 15px 0px 0px 0px;
+	}
+	.service .inner-service img{
+		margin: 30px 0px 0px 0px;
+	}
+	.service .headings h2{
+		margin: 0px 0px 0px 0px;
+	}
+	.service .headings p{
+		margin: 0px 0px 0px 0px;
+	}
+	.service .inner-service h5{
+		margin: 20px 0px 0px 0px;
+	}
+	.service .headings p br{
+		display: none;
+	}
+	.service{
+		padding: 70px 0px;
+	}
+	/*service section ends here*/
+
+
+
+
+	/*team section starts here*/
+	.team{
+		padding: 60px 0px;
+	}
+	.team .headings p{
+		margin: 0px 0px 10px 0px;
+	}
+	.team .inner-team img{
+		width: 70%;
+		margin: 20px 0px 30px 0px;
+	}
+	/*team section ends here*/
+
+
+
+
+	/*skill section starts here*/
+	.skill{
+		padding: 60px 0px;
+	}
+	.skill .inner-skill{
+		margin: 50px 0px 0px 0px;
+	}
+	.skill .headings p{
+		margin: 0px 0px 0px 0px;
+	}
+	.skill .headings p br{
+		display: none;
+	}
+	/*skill section ends here*/
+
+
+
+
+	/*portfolio section starts here*/
+	.portfolio{
+		padding: 60px 0px;
+	}
+	.portfolio .foot button{
+		margin: 10px 0px 0px 0px;
+	}
+	.portfolio .port .mix img{
+		margin: 20px 0px 15px 0px;
+	}
+	.portfolio .headings p br{
+		display: none;
+	}
+	/*portfolio section ends here*/
+
+
+
+
+	/*testimonial section starts here*/
+	.testimonial .inner-testimonial{
+		width: 100%;
+		margin: 60px auto 0px;
+	}
+	.testimonial{
+		padding: 60px 0px;
+	}
+	.testimonial .headings p{
+		margin: 0px 0px 0px 0px;
+	}
+	.testimonial .inner-testimonial .details{
+		margin: 0px 0px 0px 20px;
+	}
+	/*testimonial section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 60px 0px;
+	}
+	.touch .inner-touch{
+		width: 90%;
+	}
+	.touch .foot button{
+		width: 70%;
+	}
+	.touch input{
+		margin: 0px 0px 10px 0px;
+	}
+	/*touch section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer ul li a{
+		margin: 0px 0px 0px 15px;
+	}
+	.footer ul li{
+		margin: 10px 0px 0px 0px;
+		display: block;
+	}
+	.footer ul br{
+		display: none;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for xs*/
+@media(min-width: 420px) and (max-width: 575px){
+	/*header section starts here*/
+	.header .navbar .nav-item a{
+		margin: 10px 8px 2px 0px;
+	}
+	.header .navbar a img{
+		margin-top: 20px;
+	} 
+	.header .navbar button{
+		margin-top: 12px;
+	} 
+	.header .banner h2{
+		margin: 70px 0px 0px 0px;
+	}
+	.header .banner button{
+		margin: 40px 0px 80px 0px;
+	}
+	.header .banner h2 br{
+		display:none;
+	}
+	/*header section ends here*/
+
+
+
+
+	/*service section starts here*/
+	.service .inner-service p{
+		margin: 15px 0px 0px 0px;
+	}
+	.service .inner-service img{
+		margin: 30px 0px 0px 0px;
+	}
+	.service .headings h2{
+		margin: 0px 0px 0px 0px;
+	}
+	.service .headings p{
+		margin: 0px 0px 0px 0px;
+	}
+	.service .inner-service h5{
+		margin: 20px 0px 0px 0px;
+	}
+	.service .headings p br{
+		display: none;
+	}
+	.service{
+		padding: 70px 0px;
+	}
+	/*service section ends here*/
+
+
+
+
+	/*team section starts here*/
+	.team{
+		padding: 70px 0px;
+	}
+	.team .headings p{
+		margin: 0px 0px 10px 0px;
+	}
+	.team .inner-team img{
+		width: 70%;
+		margin: 20px 0px 30px 0px;
+	}
+	/*team section ends here*/
+
+
+
+
+	/*skill section starts here*/
+	.skill{
+		padding: 60px 0px;
+	}
+	.skill .inner-skill{
+		margin: 50px 0px 0px 0px;
+	}
+	.skill .headings p{
+		margin: 0px 0px 10px 0px;
+	}
+	.skill .headings p br{
+		display: none;
+	}
+	/*skill section ends here*/
+
+
+
+
+	/*portfolio section starts here*/
+	.portfolio{
+		padding: 60px 0px;
+	}
+	.portfolio .foot button{
+		margin: 20px 0px 0px 0px;
+	}
+	.portfolio .port .mix img{
+		margin: 30px 0px 15px 0px;
+	}
+	.portfolio .headings p br{
+		display: none;
+	}
+	/*portfolio section ends here*/
+
+
+
+
+	/*testimonial section starts here*/
+	.testimonial .inner-testimonial{
+		width: 100%;
+		margin: 60px auto 0px;
+	}
+	.testimonial{
+		padding: 60px 0px;
+	}
+	.testimonial .headings p{
+		margin: 0px 0px 0px 0px;
+	}
+	.testimonial .inner-testimonial .details{
+		margin: 0px 0px 0px 10px;
+	}
+	/*testimonial section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 60px 0px;
+	}
+	.touch .inner-touch{
+		width: 70%;
+	}
+	.touch .foot button{
+		width: 65%;
+	}
+	.touch input{
+		margin: 0px 0px 10px 0px;
+	}
+	/*touch section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer ul li a{
+		margin: 0px 0px 0px 15px;
+	}
+	.footer ul li{
+		margin: 10px 0px 0px 0px;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for sm*/
+@media(min-width: 576px) and (max-width: 767px){
+	/*header section starts here*/
+	.header .navbar .nav-item a{
+		margin: 10px 8px 2px 0px;
+	}
+	.header .navbar a img{
+		margin-top: 20px;
+	} 
+	.header .navbar button{
+		margin-top: 12px;
+	} 
+	.header .banner h2{
+		margin: 70px 0px 0px 0px;
+	}
+	.header .banner button{
+		margin: 40px 0px 80px 0px;
+	}
+	/*header section ends here*/
+
+
+
+
+	/*service section starts here*/
+	.service .inner-service p{
+		margin: 15px 0px 50px 0px;
+	}
+	.service .inner-service img{
+		margin: 30px 0px 0px 0px;
+	}
+	.service{
+		padding: 70px 0px;
+	}
+	.service .headings p{
+		margin: 0px;
+	}
+	.service .inner-service p{
+		margin: 15px 0px 0px 0px;
+	}
+	/*service section ends here*/
+
+
+
+
+	/*team section starts here*/
+	.team{
+		padding: 70px 0px;
+	}
+	.team .headings p{
+		margin: 0px 0px 10px 0px;
+	}
+	.team .inner-team img{
+		margin: 20px 0px 30px 0px;
+	}
+	/*team section ends here*/
+
+
+
+
+	/*skill section starts here*/
+	.skill{
+		padding: 80px 0px;
+	}
+	.skill .inner-skill{
+		margin: 50px 0px 0px 0px;
+	}
+	.skill .headings p{
+		margin: 0px 0px 30px 0px;
+	}
+	/*skill section ends here*/
+
+
+
+
+	/*portfolio section starts here*/
+	.portfolio{
+		padding: 80px 0px;
+	}
+	.portfolio .foot button{
+		margin: 20px 0px 0px 0px;
+	}
+	.portfolio .port .mix img{
+		margin: 30px 0px 15px 0px;
+	}
+	/*portfolio section ends here*/
+
+
+
+
+	/*testimonial section starts here*/
+	.testimonial .inner-testimonial{
+		width: 100%;
+		margin: 70px auto 0px;
+	}
+	.testimonial{
+		padding: 80px 0px;
+	}
+	.testimonial .headings p{
+		margin: 0px 0px 0px 0px;
+	}
+	/*testimonial section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 80px 0px;
+	}
+	.touch .inner-touch{
+		width: 100%;
+	}
+	/*touch section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer ul li a{
+		margin: 0px 0px 0px 10px;
+	}
+	.footer ul br{
+		display: none;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for md*/
+@media(min-width: 768px) and (max-width: 991px){
+	/*header section starts here*/
+	.header .navbar .nav-item a{
+		margin: 10px 8px 2px 0px;
+	}
+	.header .navbar a img{
+		margin-top: 20px;
+	} 
+	.header .navbar button{
+		margin-top: 12px;
+	} 
+	/*header section ends here*/
+
+
+
+
+	/*service section starts here*/
+	.service .inner-service p{
+		margin: 15px 0px 0px 0px;
+	}
+	.service .inner-service img{
+		margin: 50px 0px 0px 0px;
+	}
+	.service{
+		padding: 70px 0px;
+	}
+	/*service section ends here*/
+
+
+
+
+	/*team section starts here*/
+	.team{
+		padding: 70px 0px;
+	}
+	.team .headings p{
+		margin: 0px 0px 10px 0px;
+	}
+	.team .inner-team img{
+		margin: 20px 0px 30px 0px;
+	}
+	/*team section ends here*/
+
+
+
+
+	/*skill section starts here*/
+	.skill{
+		padding: 80px 0px;
+	}
+	.skill .inner-skill{
+		margin: 50px 0px 0px 0px;
+	}
+	.skill .headings p{
+		margin: 0px 0px 30px 0px;
+	}
+	/*skill section ends here*/
+
+
+
+
+	/*portfolio section starts here*/
+	.portfolio{
+		padding: 80px 0px;
+	}
+	/*portfolio section ends here*/
+
+
+
+
+	/*testimonial section starts here*/
+	.testimonial .inner-testimonial{
+		width: 100%;
+		margin: 80px auto 0px;
+	}
+	.testimonial{
+		padding: 80px 0px;
+	}
+	/*testimonial section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 80px 0px;
+	}
+	.touch .inner-touch{
+		width: 80%;
+	}
+	.footer ul br{
+		display: none;
+	}
+	/*touch section ends here*/
+}
+
+
+
+
+/*for lg*/
+@media(min-width: 992px) and (max-width: 1199px){
+	.footer ul br{
+		display: none;
+	}
+}
+
+
+
+
+/*for xl*/
+@media(min-width: 1200px) and (max-width: 1399px){
+	.footer ul br{
+		display: none;
+	}
+}
+
+
+
+
+/*for xxl*/
+@media(min-width: 1400px){
+	.footer ul br{
+		display: none;
+	}
+}

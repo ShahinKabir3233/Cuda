@@ -1,0 +1,478 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a, a:hover{
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+li{
+	list-style: none;
+}
+p{
+		font-family: 'Titillium Web', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+		font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+/*header section starts here*/
+.header{
+	background: #87509c;
+}
+.header .navbar .nav-item a{
+	color: #fff;
+	padding: 2px 8px;
+	margin: 25px 8px 8px 8px;
+	font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background: #643a79;
+    border-radius: 5px
+}
+.header .banner{
+	text-align: center;
+}
+.header .banner button{
+	background: #eb7d4b;
+	color: #fff;
+	padding: 15px 35px 15px 35px;
+	margin: 40px 0px 100px 0px;
+	border: none;
+	border-bottom: 3px solid #c86a40;
+	border-radius: 2px;
+}
+.header .banner h2{
+	color: #fff;
+	margin: 90px 0px 0px 0px;
+	font-weight: 600;
+}
+/*header section ends here*/
+
+
+
+
+/*service section starts here*/
+.service{
+	padding: 100px 0px;
+	background: #17c2a4;
+}
+.service .headings{
+	text-align: center;
+}
+.service .inner-service{
+	text-align: center;
+}
+.service .headings h2{
+	color: #fff;
+	font-weight: 600;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.service .headings p{
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+}
+.service .inner-service h5{
+	color: #fff;
+	font-weight: 600;
+	margin: 40px 0px 0px 0px;
+}
+.service .inner-service p{
+	font-size: 15px;
+	color: #fff;
+	margin: 15px 0px 0px 0px;
+}
+.service .inner-service img{
+	margin: 70px 0px 0px 0px;
+}
+.service .inner-service{
+	width: 70%;
+	margin: auto;
+}
+/*service section ends here*/
+
+
+
+
+/*service section starts here*/
+.team{
+	background: #e7f1f8;
+	padding: 100px 0px;
+}
+.team .headings{
+	text-align: center;
+}
+.team .inner-team{
+	text-align: center;
+}
+.team .headings h2{
+	color: #3c4761;
+	font-weight: 650;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.team .headings p{
+	color: #5d677b;
+	margin: 0px 0px 50px 0px;
+}
+.team .inner-team h5{
+	color: #3c4761;
+	font-weight: 600;
+	margin: 0px 0px 8px 0px;
+}
+.team .inner-team h6{
+	color: #30bae7;
+}
+.team .inner-team p{
+	font-size: 15px;
+	color: #3c4761;
+	margin: 10px 0px 20px 0px;
+}
+.team .inner-team img{
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+	border-radius: 100%;
+}
+.team .inner-team{
+	width: 70%;
+	margin: auto;
+}
+.team .inner-team i{
+	color: #bdd1df;
+	font-size: 24px;
+	margin: 0px 0px 0px 5px;
+}
+/*service section ends here*/
+
+
+
+
+/*skill section starts here*/
+.skill{
+	padding: 100px 0px;
+}
+.skill .headings{
+	text-align: center;
+}
+.skill .inner-skill{
+	text-align: center;
+}
+.skill .headings h2{
+	color: #3c4761;
+	font-weight: 650;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.skill .headings p{
+	color: #3c4761;
+	margin: 0px 0px 80px 0px;
+}
+.skill .inner-skill h6{
+	color: #3c4761;
+	font-weight: 650;
+	margin: 20px 0px 0px 0px;
+}
+/*progress bar starts here*/
+.progress-bar {
+	position: relative;
+	height: 100px;
+  	width: 100px;
+  	background: transparent;
+  	color: #3c4761;
+  	margin: auto;
+}
+
+.progress-bar div {
+  	position: absolute;
+  	height: 100px;
+  	width: 100px;
+  	border-radius: 50%;
+}
+
+.progress-bar div span {
+  	position: absolute;
+  	font-family: Arial;
+  	font-size: 25px;
+  	line-height: 80px;
+  	height: 80px;
+  	width: 80px;
+  	left: 10px;
+  	top: 10px;
+  	text-align: center;
+  	border-radius: 50%;
+  	background-color: white;
+}
+.progress-bar .background { background-color: #b3cef6; }
+
+.first .progress-bar .rotate {
+ 	clip: rect(0 50px 100px 0);
+  	background-color: #30bae7;
+}
+
+.first .progress-bar .left {
+  	clip: rect(0 50px 100px 0);
+ 	opacity: 1;
+  	background-color: #30bae7;
+}
+
+.first .progress-bar .right {
+ 	clip: rect(0 50px 100px 0);
+ 	transform: rotate(180deg);
+ 	opacity: 0;
+ 	background-color: #30bae7;
+}
+.second .progress-bar .rotate {
+ 	clip: rect(0 50px 100px 0);
+  	background-color: #d74680;
+}
+
+.second .progress-bar .left {
+  	clip: rect(0 50px 100px 0);
+ 	opacity: 1;
+  	background-color: #d74680;
+}
+
+.second .progress-bar .right {
+ 	clip: rect(0 50px 100px 0);
+ 	transform: rotate(180deg);
+ 	opacity: 0;
+ 	background-color: #d74680;
+}
+.third .progress-bar .rotate {
+ 	clip: rect(0 50px 100px 0);
+  	background-color: #15c7a8;
+}
+
+.third .progress-bar .left {
+  	clip: rect(0 50px 100px 0);
+ 	opacity: 1;
+  	background-color: #15c7a8;
+}
+
+.third .progress-bar .right {
+ 	clip: rect(0 50px 100px 0);
+ 	transform: rotate(180deg);
+ 	opacity: 0;
+ 	background-color: #15c7a8;
+}
+.fourth .progress-bar .rotate {
+ 	clip: rect(0 50px 100px 0);
+  	background-color: #eb7d4b;
+}
+
+.fourth .progress-bar .left {
+  	clip: rect(0 50px 100px 0);
+ 	opacity: 1;
+  	background-color: #eb7d4b;
+}
+
+.fourth .progress-bar .right {
+ 	clip: rect(0 50px 100px 0);
+ 	transform: rotate(180deg);
+ 	opacity: 0;
+ 	background-color: #eb7d4b;
+}
+
+@keyframes 
+toggle {  0% {
+ 	opacity: 0;
+}
+ 100% {
+ 	opacity: 1;
+}
+}
+/*progress bar ends here*/
+/*skill section ends here*/
+
+
+
+
+/*portfolio section starts here*/
+.portfolio{
+	background: #ffdd99;
+	padding: 100px 0px;
+}
+.portfolio .headings{
+	text-align: center;
+} 
+.portfolio .headings h2{
+	color: #3c4761;
+	font-weight: 650;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.portfolio .headings p{
+	color: #3c4761;
+	margin: 0px 0px 30px 0px;
+}
+.portfolio .headings button{
+	padding: 4px 12px 4px 12px;
+	background: #ebc985;
+	border: none;
+	border-radius: 4px;
+	margin: 0px 0px 0px 0px; 
+}
+.portfolio .port .mix img{
+	width: 80%;
+	margin: 50px 0px 15px 0px;
+}
+.portfolio .port .mix{
+	text-align: center;
+}
+.portfolio .port .mix p{
+	color: #3c4761;
+	margin: 0px 0px 30px 0px;
+}
+.portfolio .foot{
+	text-align: center;
+}
+.portfolio .foot button{
+	padding: 10px 30px 10px 30px;
+	background: #17c2a4;
+	color: #fff;
+	margin: 30px 0px 0px 0px;
+	border: none;
+	border-bottom: 3px solid #14a58c;
+	border-radius: 2px;
+}
+/*portfolio section ends here*/
+
+
+
+
+/*testimonial section starts here*/
+.testimonial{
+	background: #d74680;
+	padding: 100px 0px;
+}
+.testimonial .headings{
+	text-align: center;
+}
+.testimonial .headings h2{
+	color: #fff;
+	font-weight: 650;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.testimonial .headings p{
+	color: #fff;
+	margin: 0px 0px 30px 0px;
+}
+.testimonial .inner-testimonial .details p{
+	color: #fff;
+	font-style: italic;
+}
+.testimonial .inner-testimonial .details h5{
+	color: #fff;
+	font-weight: 600;
+}
+.testimonial .inner-testimonial .details h6{
+	color: #ffdd99;
+	font-size: 14px;
+}
+.testimonial .inner-testimonial{
+	width: 80%;
+	margin: 100px auto 0px;
+}
+.testimonial .inner-testimonial .details{
+	margin: 0px 0px 0px 20px;
+}
+/*testimonial section ends here*/
+
+
+
+
+/*touch section starts here*/
+.touch{
+	background: #3c5499;
+	padding: 100px 0px;
+}
+.touch .headings{
+	text-align: center;
+}
+.touch .headings h2{
+	color: #fff;
+	font-weight: 650;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.touch .headings p{
+	color: #fff;
+	margin: 0px 0px 30px 0px;
+}
+.touch .foot button{
+	padding: 10px 30px 10px 30px;
+	background: #30bae7;
+	color: #fff;
+	margin: 30px auto 0px;
+	border: none;
+	border-bottom: 3px solid #299ec5;
+	border-radius: 2px;
+	width: 40%;
+}
+.touch .foot{
+	text-align: center;
+}
+.touch input{
+	background: #273a71;
+	border: none;
+	border-radius: 2px;
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+	color: #fff;
+	padding: 10px;
+}
+.touch input ::placeholder{
+	color: red;
+}
+.touch textarea{
+	background: #273a71;
+	border: none;
+	border-radius: 2px;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+}
+.touch{
+	margin: auto;
+}
+.touch .inner-touch{
+	width: 60%;
+	margin: auto;
+}
+.touch ::placeholder{
+	color: #fff;
+}
+/*touch section ends here*/
+
+
+
+
+/*footer section starts here*/
+.footer{
+	background: #344b8e;
+	color: #fff;
+	padding: 30px 0px;
+	text-align: center;
+}
+.footer ul li{
+	display: inline-block;
+}
+.footer ul{
+	margin: 0px;
+}
+.footer ul li a{
+	color: #fff;
+	margin: 0px 0px 0px 30px;
+	font-weight: 600;
+}
+.footer ul li a:hover{
+	color: #30bae7;
+}
+
+/*foooter section ends here*/
